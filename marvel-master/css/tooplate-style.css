@@ -17,14 +17,25 @@ body {
   padding: 8rem 0;
 }
 
+/* Uyen change avt startstart */
+.about-image .img-fluid {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Uyen change avt end */
+
+/* Uyen change font-size start */
 .small-text {
-  color: #5b5b5b;
-  font-size: 14px;
+  color:#ffc200;
+  font-size: 24px;
   font-weight: bold;
   padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
+/* Uyen change font-size end */
 
 ul {
   margin: 0;
