@@ -39,9 +39,11 @@ a {
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
+/* Start Quyen's part */
 a:hover {
-  color: #ffc200 !important;
+  color: black !important;
 }
+/* End Quyen's part */
 
 .navbar-brand .uil {
   font-size: 40px;
@@ -290,7 +292,9 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+/* Start Quyen's part */
+  background: #252728;
+/* End Quyen's part */
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -299,16 +303,20 @@ b, strong {
   color: #ffc200;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
+/* Start Quyen's part */
+  background: #252728;
+/* End Quyen's part */
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
   background: #0d0c15;
-  color: #ffffff;
+  color: #090707;
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+/* Start Quyen's part */
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p, 
+/* End Quyen's part */
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -354,7 +362,9 @@ b, strong {
 .timeline-info {
   display: inline-block;
   vertical-align: top;
-  max-width: 432px;
+  /* Start Quyen's part */
+  /* max-width: 432px; */
+  /* End Quyen's part */
   margin-left: 6em;
 }
 .timeline-info small {
@@ -446,10 +456,15 @@ b, strong {
 }
 
 .contact-info {
-  background: #474559;
+  /* Start Quyen's part */
+  background: #ffc200;
+  /* End Quyen's part */
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
+  /* Start Quyen's part */
+  height: 510px;
+  /* End Quyen's part */
 }
 .contact-info p, .contact-info a {
   color: #f7f3f3;
@@ -462,7 +477,7 @@ b, strong {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: black;
 }
 
 @media (min-width: 1270px) {
