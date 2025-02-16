@@ -17,14 +17,25 @@ body {
   padding: 8rem 0;
 }
 
+/* Uyen change avt startstart */
+.about-image .img-fluid {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Uyen change avt end */
+
+/* Uyen change font-size start */
 .small-text {
-  color: #5b5b5b;
-  font-size: 14px;
+  color:#ffc200;
+  font-size: 24px;
   font-weight: bold;
   padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
+/* Uyen change font-size end */
 
 ul {
   margin: 0;
@@ -112,7 +123,6 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
   min-width: 260px;
   position: relative;
 }
@@ -121,24 +131,7 @@ b, strong {
   color: #ffc200;
 }
 
-.animated-item {
-  font-size: 38px;
-  line-height: inherit;
-  display: block;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  animation: BottomTotop 6s linear infinite 0s;
-}
-.animated-item:nth-child(2n+2) {
-  animation-delay: 2s;
-}
-.animated-item:nth-child(3n+3) {
-  animation-delay: 4s;
-}
+
 
 @keyframes BottomTotop {
   0% {
@@ -309,7 +302,7 @@ b, strong {
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
-  background: #0d0c15;
+  background: white;
   color: #090707;
 }
 .dark-mode .feature-card .uil,
@@ -518,7 +511,7 @@ b, strong {
   }
 
   .animated-item {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .navbar-collapse {
